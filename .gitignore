@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+web-env.sh
+worker-env.sh
+*.pem
+*.key
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS / system files
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local test files / temporary files
+tmp/
+temp/
+*.tmp
+
+# Local uploaded PDFs or generated files
+uploads/
+*.pdf
+
+# Database/local data files
+*.sqlite
+*.db

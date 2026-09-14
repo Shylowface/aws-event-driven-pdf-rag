@@ -1,5 +1,7 @@
 # Event-Driven PDF Retrieval Comparison on AWS
 
+**Course:** COMP5349 · **Project:** Assignment 2 · **Type:** Individual Project
+
 An independently developed cloud application for uploading PDF documents,
 processing them asynchronously, and comparing two text-chunking strategies for
 information retrieval.
@@ -187,3 +189,6 @@ aws sqs get-queue-attributes --queue-url "$PARAGRAPH_AWARE_QUEUE_URL" --attribut
 
 This is a personal portfolio project focused on event-driven cloud design,
 asynchronous processing, and retrieval-strategy evaluation.
+
+
+This project was completed individually for COMP5349 Assignment 2.
